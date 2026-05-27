@@ -1,3 +1,5 @@
 # learning-git
 Learning git from W3School.
-a line edit in github
+This repo is for learning.
+a line edit in github.
+## Learning pull

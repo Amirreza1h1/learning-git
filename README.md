@@ -23,7 +23,7 @@ After installing Git, it is important to set your name and email address correct
 
 You can check your current global Git name and email with:</p>
 
-```
+```bash
 git config --global user.name
 git config --global user.email
 ```
@@ -39,6 +39,24 @@ When you create a repository, Git can start saving the history of your files.
 ```bash
 git init    #Create a new Git repository
 git status  #Check the repository status
+```
+
+### Git Status
+
+`git status` shows the current state of your project. It tells you which files are changed, staged, untracked, or ready to commit.
+
+```bash
+git status
+git status --short
+```
+
+### New Files
+
+When you create a new file in a Git repository, Git can see it as an untracked file. You need to add it to the staging area before committing it.
+
+```bash
+git status
+git add index.html
 ```
 
 ## Advanced concepts

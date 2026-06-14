@@ -56,7 +56,8 @@ When you create a new file in a Git repository, Git can see it as an untracked f
 
 ```bash
 git status
-git add index.html
+git add file-name
+git add .   #add every changed file
 ```
 
 ## Advanced concepts

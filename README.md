@@ -76,6 +76,26 @@ git log
 git log --oneline
 ```
 
+### Branch
+
+A branch lets you work on a separate version of your project. It is useful when you want to add or test something without changing the main branch directly. We usually use it to add a feature or when we want to release a new version of the project.
+
+```bash
+git branch feature-navbar   #create branch
+git switch feature-navbar   #if there is no such a branch, create and switch
+git checkout -b feature-navbar  #create and switch
+```
+If branch does not exist, checkout alone will not create it. So for a beginner is better to use checkout instead of switch.
+
+### Merge
+
+Merge combines changes from one branch into another branch. Usually, you switch to the target branch first, then merge the other branch into it.
+
+```bash
+git checkout main
+git merge feature-navbar
+```
+
 ## Advanced concepts
 ---
 ### .gitignore

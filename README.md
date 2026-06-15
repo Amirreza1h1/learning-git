@@ -50,14 +50,30 @@ git status
 git status --short
 ```
 
-### New Files
+### New Files and Staging Area
 
 When you create a new file in a Git repository, Git can see it as an untracked file. You need to add it to the staging area before committing it.
+The staging area is where you prepare files before saving them in a commit. You can stage one file or all changed files.
 
 ```bash
 git status
 git add file-name
 git add .   #add every changed file
+```
+### Commit
+
+A commit saves your staged changes in the repository history. A good commit message should be short and clear.
+
+```bash
+git commit -m "Add homepage"
+```
+### Commit History
+
+Git history shows the commits that were saved in the repository. It helps you review what changed and when it changed.
+
+```bash
+git log
+git log --oneline
 ```
 
 ## Advanced concepts

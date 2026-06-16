@@ -96,6 +96,24 @@ git checkout main
 git merge feature-navbar
 ```
 
+### Tag
+
+A tag is a name for a specific commit. Tags are often used for versions, such as releases.
+
+```bash
+git tag v1.0.0
+git tag
+```
+
+### Stash
+
+Stash temporarily saves your unfinished changes. It is useful when you need to switch branches but are not ready to commit.
+
+```bash
+git stash
+git stash pop
+```
+
 ## Advanced concepts
 ---
 ### .gitignore

@@ -113,6 +113,42 @@ Stash temporarily saves your unfinished changes. It is useful when you need to s
 git stash
 git stash pop
 ```
+### Help
+
+Git help shows information about Git commands. It is useful when you forget how a command works.
+
+```bash
+git help status
+git status --help
+```
+
+### Basic Workflow
+
+A basic Git workflow is checking your files, staging changes, committing them, and reviewing the result. This is the common cycle for saving work locally.
+
+```bash
+git status
+git add .
+git commit -m "Update files"
+git log --oneline
+```
+
+### Best Practices
+
+Good Git habits make your project easier to understand. Use clear commit messages, commit related changes together, and check status often.
+
+```bash
+git status
+git commit -m "Fix navigation links"
+```
+
+### Glossary
+
+A glossary is a short list of important Git words. It helps beginners remember terms like repository, commit, branch, merge, stage, and remote.
+
+```bash
+git help glossary
+```
 
 ## Advanced concepts
 ---

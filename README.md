@@ -152,11 +152,31 @@ git help glossary
 
 ## Advanced concepts
 ---
-### .gitignore
-<p>In real projects for managing security, we don't want to address some of our assets, keys, passwords and other type of secret files.</p>
-<p>On one hand, we can move our secret things out of the project folder and use absolute or relative path to use them. On the other hand, with changing of some modules' built-in properties as an essential accessible core, manner and workflow of our connections come into a serious problem.</p>
-<p>In that case, we use <b><i>.gitignore</i></b> file to tell git not to track the changes or content of it.</p>
 
-<p>How to use it will be here soon.</p>
+
+### .gitignore
+
+`.gitignore` tells Git which files or folders it should not track. It is useful for secret files, temporary files, dependencies, and generated files.
+
+```bash
+touch .gitignore
+git status
+```
+
+Example `.gitignore` content:
+
+```gitignore
+node_modules/
+.env
+```
+### GitHub / Remote Repository
+
+A remote repository is a version of your project stored online, such as on GitHub. It helps you back up your project and share it with others.
+
+```bash
+git remote -v
+git remote add origin https://github.com/user/repo.git
+```
+
 
 ## Resources

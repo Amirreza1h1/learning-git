@@ -178,5 +178,12 @@ git remote -v
 git remote add origin https://github.com/user/repo.git
 ```
 
+### Clone
+
+Clone copies an existing remote repository to your computer. After cloning, you can work with the project locally.
+
+```bash
+git clone https://github.com/user/repo.git
+```
 
 ## Resources

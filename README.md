@@ -186,4 +186,20 @@ Clone copies an existing remote repository to your computer. After cloning, you 
 git clone https://github.com/user/repo.git
 ```
 
+### Push
+
+Push sends your local commits to a remote repository. It is commonly used after committing changes on your computer.
+
+```bash
+git push origin main
+```
+
+### Pull
+
+Pull gets the latest changes from a remote repository and updates your local branch. It is useful when other people have changed the project.
+
+```bash
+git pull origin main
+```
+
 ## Resources

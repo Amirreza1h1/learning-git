@@ -202,4 +202,31 @@ Pull gets the latest changes from a remote repository and updates your local bra
 git pull origin main
 ```
 
+### Fetch
+
+Fetch gets information from the remote repository without directly changing your working files. It lets you check remote updates first.
+
+```bash
+git fetch origin
+git status
+```
+
+### Fork
+
+A fork is your own copy of another person's repository on GitHub. It is useful when you want to suggest changes to a project you do not own.
+
+```bash
+git clone https://github.com/your-username/forked-repo.git
+```
+
+### GitHub Branch
+
+A GitHub branch is a branch that also exists on the remote repository. You can push your local branch to GitHub so others can see it.
+
+```bash
+git switch -c feature-navbar
+git push origin feature-navbar
+```
+
+
 ## Resources

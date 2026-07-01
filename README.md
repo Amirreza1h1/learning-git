@@ -227,6 +227,25 @@ A GitHub branch is a branch that also exists on the remote repository. You can p
 git switch -c feature-navbar
 git push origin feature-navbar
 ```
+### Pull Request
+
+A pull request asks to merge changes from one branch or fork into another repository branch. It is used for review and collaboration on GitHub.
+
+```bash
+git push origin feature-navbar
+```
+
+Then open a pull request on GitHub.
+
+### GitHub Pages
+
+GitHub Pages can publish a static website from a GitHub repository. It is useful for simple documentation, portfolios, and project pages.
+
+```bash
+git push origin main
+```
+
+Then enable GitHub Pages in the repository settings.
 
 
 ## Resources
